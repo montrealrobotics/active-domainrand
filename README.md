@@ -1,5 +1,9 @@
 # Active Domain Randomization
 
+<p align="center">
+<img src="adr.gif"><br>
+</p>
+
 [Active Domain Randomization](https://arxiv.org/abs/TODO) (ADR) is a new method for improved, zero-shot transfer of robotic reinforcement learning policies. Building upon traditional domain randomization, which uniformly samples the _randomization space_, we show that replacing this with an active search for difficult MDP instances improves generalization and robustness in the resulting policies.
 
 Below is our code to reproduce the experiments in the paper. Please check out our [Domain Randomizer](https://github.com/montrealrobotics/domain-randomizer) repository if you're interested in a easy way to do domain randomization in parallel.
