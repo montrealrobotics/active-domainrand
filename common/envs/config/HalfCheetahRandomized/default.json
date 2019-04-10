@@ -1,0 +1,49 @@
+{
+  "env": "HalfCheetahRandomized-v0",
+  "dimensions": [
+    {
+      "name": "foot",
+      "default": 0.046,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "shin",
+      "default": 0.046,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "thigh", 
+      "default": 0.046,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "torso",
+      "default": 0.046,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "head",
+      "default": 0.046,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    }
+  ],
+  "geom_map" : {
+    "foot": ["bfoot", "ffoot"],
+    "shin": ["bshin", "fshin"],
+    "thigh": ["bthigh", "fthigh"],
+    "torso": ["torso"],
+    "head": ["head"]
+  },
+  "suffixes": {
+    "foot": "0.046",
+    "shin": "0.046",
+    "thigh": "0.046",
+    "torso": "0.046",
+    "head": "0.046"
+  }
+}

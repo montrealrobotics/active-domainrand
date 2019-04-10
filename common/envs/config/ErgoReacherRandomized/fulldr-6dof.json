@@ -1,0 +1,77 @@
+{
+  "env": "ErgoReacherRandomized-v0",
+  "dimensions": [
+    {
+      "name": "joint0gain",
+      "default": 1,
+      "multiplier_min": 0.1,
+      "multiplier_max": 100
+    },
+    {
+      "name": "joint1gain",
+      "default": 1,
+      "multiplier_min": 0.1,
+      "multiplier_max": 100
+    },
+    {
+      "name": "joint2gain",
+      "default": 1,
+      "multiplier_min": 0.1,
+      "multiplier_max": 100
+    },
+    {
+      "name": "joint3gain",
+      "default": 1,
+      "multiplier_min": 0.1,
+      "multiplier_max": 100
+    },
+    {
+      "name": "joint4gain",
+      "default": 1,
+      "multiplier_min": 0.1,
+      "multiplier_max": 100
+    },
+    {
+      "name": "joint5gain",
+      "default": 1,
+      "multiplier_min": 0.1,
+      "multiplier_max": 100
+    },
+    {
+      "name": "joint0maxtorque",
+      "default": 18,
+      "multiplier_min": 0.2222,
+      "multiplier_max": 2.7778
+    },
+    {
+      "name": "joint1maxtorque",
+      "default": 18,
+      "multiplier_min": 0.2222,
+      "multiplier_max": 2.7778
+    },
+    {
+      "name": "joint2maxtorque",
+      "default": 18,
+      "multiplier_min": 0.2222,
+      "multiplier_max": 2.7778
+    },
+    {
+      "name": "joint3maxtorque",
+      "default": 18,
+      "multiplier_min": 0.2222,
+      "multiplier_max": 2.7778
+    },
+    {
+      "name": "joint4maxtorque",
+      "default": 18,
+      "multiplier_min": 0.2222,
+      "multiplier_max": 2.7778
+    },
+    {
+      "name": "joint5maxtorque",
+      "default": 18,
+      "multiplier_min": 0.2222,
+      "multiplier_max": 2.7778
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "env": "LunarLanderRandomized-Expert_0-v0",
+  "dimensions": [
+    {
+      "name": "main_engine",
+      "default": 8,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.375
+    }
+  ]
+}

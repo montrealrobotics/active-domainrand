@@ -1,0 +1,53 @@
+{
+  "env": "ErgoReacherRandomizedBacklashEasy-v0",
+  "dimensions": [
+    {
+      "name": "joint0gain",
+      "default": 1000,
+      "multiplier_min": 1.0,
+      "multiplier_max": 5.0
+    },
+    {
+      "name": "joint1gain",
+      "default": 1000,
+      "multiplier_min": 1.0,
+      "multiplier_max": 5.0
+    },
+    {
+      "name": "joint2gain",
+      "default": 1000,
+      "multiplier_min": 1.0,
+      "multiplier_max": 5.0
+    },
+    {
+      "name": "joint3gain",
+      "default": 1000,
+      "multiplier_min": 1.0,
+      "multiplier_max": 5.0
+    },
+    {
+      "name": "joint0backlash",
+      "default": -0.91629,
+      "multiplier_min": 7.5,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "joint1backlash",
+      "default": -0.91629,
+      "multiplier_min": 7.5,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "joint2backlash",
+      "default": -0.91629,
+      "multiplier_min": 7.5,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "joint3backlash",
+      "default": -0.91629,
+      "multiplier_min": 7.5,
+      "multiplier_max": 1.5
+    }
+  ]
+}

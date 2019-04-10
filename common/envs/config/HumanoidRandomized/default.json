@@ -1,0 +1,49 @@
+{
+  "env": "HumanoidRandomized-v0",
+  "dimensions": [
+    {
+      "name": "foot",
+      "default": 0.075,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "thigh",
+      "default": 0.06,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "shin",
+      "default": 0.06,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "torso",
+      "default": 0.07,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "head",
+      "default": 0.09,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    },
+    {
+      "name": "hand",
+      "default": 0.04,
+      "multiplier_min": 1.0,
+      "multiplier_max": 1.5
+    }
+  ],
+  "geom_map" : {
+    "head": ["head"],
+    "thigh": ["right_thigh1", "left_thigh1"],
+    "shin": ["right_shin1", "left_shin1"],
+    "foot": ["left_foot", "right_foot"],
+    "hand": ["left_hand", "right_hand"],
+    "torso": ["torso1"]
+  } 
+}
