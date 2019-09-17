@@ -42,10 +42,6 @@ python -m experiments.domainrand.experiment_driver [lunar|pusher|ergo] \
     --freeze-discriminator --experiment-prefix="ours-agent-scratch" --seed={SEED}
 ```
 
-## How to Run
-
-Check the [scripts](./scripts/) folder on how to run experiments with multiple seeds.
-
 ## Reference
 
 ```
