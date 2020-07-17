@@ -24,6 +24,10 @@ if __name__ == '__main__':
     paths = setup_experiment_logs(args)
     check_args(args)
     
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    np.random.seed(args.seed)
+    
     stats_logger = StatsLogger(args)
     visualizer = Visualizer(randomized_env_id=args.randomized_eval_env_id, seed=args.seed)
 
@@ -49,10 +53,6 @@ if __name__ == '__main__':
 
     
     simulator_agent = generate_simulator_agent(args)
-
-    torch.manual_seed(args.seed)
-    torch.cuda.manual_seed(args.seed)
-    np.random.seed(args.seed)
 
     svpg_timesteps = 0
 
